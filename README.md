@@ -1,17 +1,17 @@
 # Ubuntu & Debian Server Protection
-Ez a repository összegyűjti a legjobb módszereket és eszközöket az Ubuntu és Debian alapú szerverek védelméhez, különös tekintettel a következőkre:
 
-- **Brute Force támadások elleni védelem**
-- **DDoS támadások elleni védelem**
-- **Szerver monitorozás**
-- **Általános biztonsági ajánlások**
+This repository provides a comprehensive collection of techniques, configurations, and tools to protect Ubuntu and Debian servers from various threats, such as Brute Force and DDoS attacks. It also includes resources for server monitoring and best practices to enhance overall server security.
 
-## Főbb szekciók
+## Repository Structure
+
 - [**brute-force-protection/**](brute-force-protection/):  
-  Megoldások és konfigurációk a Brute Force támadások kivédésére.
+  Solutions and configurations to defend against Brute Force attacks.
+
 - [**ddos-protection/**](ddos-protection/):  
-  Eszközök és technikák a DDoS támadások kezelésére.
+  Techniques and tools for mitigating DDoS attacks, such as rate limiting and reverse proxy configurations.
+
 - [**monitoring/**](monitoring/):  
-  Monitorozási eszközök és beállítások.
+  Tools and configurations for server monitoring, including solutions like Netdata, Zabbix, and Nagios.
+
 - [**best-practices/**](best-practices/):  
-  Általános biztonsági gyakorlatok szerverekhez.
+  General security recommendations for maintaining a secure server environment, including update management, backups, and user access control.
