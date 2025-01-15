@@ -90,10 +90,10 @@ This command updates the package list and upgrades all installed packages to the
    This command allows access from any IP in the range `192.168.1.0` to `192.168.1.255`. Similarly, for larger ranges:
 
    ```bash
-   sudo ufw allow from 203.0.113.0/16 to any port 3306
+   sudo ufw allow from 203.113.0.0/16 to any port 3306
    ```
 
-   This allows access from any IP in the range `203.0.0.0` to `203.0.255.255`.
+   This allows access from any IP in the range `203.113.0.0` to `203.113.255.255`.
 
 ---
 
